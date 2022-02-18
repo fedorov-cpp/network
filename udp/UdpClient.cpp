@@ -1,4 +1,6 @@
 #include <cstring>
+#include <stdexcept>
+
 #include "UdpClient.hpp"
 
 using network::UdpClient;

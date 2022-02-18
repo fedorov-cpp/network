@@ -1,5 +1,7 @@
 #include <algorithm>
 #include <cstring>
+#include <stdexcept>
+
 #include "UdpServer.hpp"
 
 using network::UdpServer;

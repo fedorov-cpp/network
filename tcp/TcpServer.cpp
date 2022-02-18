@@ -1,4 +1,6 @@
 #include <algorithm>
+#include <stdexcept>
+
 #include "TcpServer.hpp"
 
 using network::TcpServer;
