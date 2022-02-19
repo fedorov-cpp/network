@@ -4,6 +4,10 @@ project(network)
 
 set(CMAKE_CXX_STANDARD 17)
 
+if (APPLE)
+    message( FATAL_ERROR "Apple OS isn't supported." )
+endif()
+
 include(cmake/compile_flags.cmake)
 
 add_subdirectory(com)
